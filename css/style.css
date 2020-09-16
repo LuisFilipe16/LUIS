@@ -1,0 +1,522 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+
+*{
+    box-sizing: border-box;
+}
+
+/* MENU/CABEÇALHO */
+
+.flex-container{
+    background-color: #000000;
+    width: 100%;
+    padding: 0px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.flex-container img{
+    width: 100px;
+    height: 60px;
+}
+
+.menu-nav{
+    display: flex;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 23px;
+    text-align: center;
+}
+
+.menu-nav a:hover{
+    background-color: #c51a2d;
+    border-bottom: 3px solid #ffffff;
+}
+
+/* FIM MENU/CABEÇALHO */
+
+/* CAPA */
+
+.capa{
+    background-image: url(../img/sala.jpg);
+    min-height: 100vh;
+    background-size: cover;
+
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.capa h1{
+    font-size: 70px;
+    max-width: 500px;
+    text-shadow: 2px 2px #000000;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.capa h2{
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+}
+
+ .botao{
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-align:  center;
+    box-shadow: 3px 3px 10px #c51a2d;
+}
+
+ .botao:hover{
+    background-color: #c51a2d;
+    border-color: #000000;
+    color: #000000;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+.cor{
+    background-color:rgba(70, 64, 64, 0.329);
+    text-align: center;
+    height: 400px;
+}
+
+/* FIM CAPA */
+
+/* PROJETO */
+
+.projeto{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 20px 0;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1f20;
+    color: #ffffff;
+
+    flex-wrap: wrap;
+
+    
+}
+
+.sobre-projeto{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.sobre-projeto h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sobre-projeto p{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+
+.video{
+    flex: 50%;
+    padding: 0px 50px;
+    box-shadow: 3px 3px 8px #000000;
+}
+
+.video iframe{
+    width: 100%;
+}
+
+.saiba-mais{
+    background-color: #1d1f20;
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-around;
+    
+}
+
+.agenda{
+    width: 300px;
+    margin-right: 10px;
+   
+    height: 240px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #1d1f20;
+}
+ 
+
+
+.agenda img{
+    width: 100%;
+    max-height: 180.59px;
+    margin-bottom: 15px;
+}
+
+.agenda a{
+    background-color: #c51a2d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 10px 10px;
+    text-align: center;
+    
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 5px #ffffff;
+    
+}
+
+.agenda a:hover{
+    background-color: #1d1f20;
+    color: #c51a2d;
+    box-shadow: 3px 3px 8px #c51a2d;
+    border: 2px solid #c51a2d;
+}
+
+
+
+
+/* FIM PROJETO */
+
+/* PROBLEMAS */
+
+.t-selecao{
+    text-align: center;
+    background-color: #c51a2d;
+    margin: 0px;
+    padding: 20px 0px;
+    color: #ffffff;
+}
+
+.selecao{
+    background-color: #1d1f20;
+    color: #ffffff;
+
+    display: flex;
+    max-width: 100%;
+    padding: 30px 0px 20px 0px;
+
+    flex-wrap: wrap;
+}
+
+.selecao h2{
+    text-align: center;
+}
+
+.card{
+    background-color: #c51a2d;
+    flex: 25%;
+    text-align: justify;
+    padding: 0px 10px;
+    line-height: 1.4;
+    border-right: 3px solid #1d1f20;
+}
+
+.img-selecao {
+    height: 85px;
+    width: 85px;
+    text-align: center;
+    margin: 0px auto;
+
+    border-radius: 50%;
+}
+
+.img-selecao img{
+    max-width: 60%;
+    margin: 15px;
+}
+
+.img-selecao:hover{
+    background-color: #f7f7f7;
+}
+
+/* FIM PROBLEMAS */
+
+/* SOLUÇÕES */
+
+.solucoes{
+    max-width: 100%;
+    background-color: #1d1f20;
+    padding: 30px 0px 20px 0px; 
+    color: #ffffff;
+}
+
+
+.solucoes h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.solucoes h2{
+    text-align: center;
+    font-size: 16px;
+  
+    
+}
+
+.container-cards{
+    max-width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.card-solucoes{
+    background-color: #c51a2d;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 3px 5px 8px #ffffff;
+   
+
+    flex: 30%;
+}
+
+.card-solucoes img{
+    max-width: 100%;
+    height: 350px;
+}
+
+/* FIM SOLUÇÕES */
+
+/* SOBRE MIM */
+
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+
+    background-color: #c51a2d;
+    color: #ffffff;
+}
+
+.sobremim{
+    flex: 50%;
+    padding: 0px 40px;
+}
+
+.sobremim h1{
+    text-align: 50%;
+    font-size: 30px;
+}
+
+.sobremim h4{
+    text-align: center;
+}
+
+.sobremim p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.foto{
+    flex: 50%;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.foto img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/* FIM SOBRE MIM */
+
+/* RODAPÉ */
+
+footer{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+    background-color: #1d1f20;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.creditos{
+    flex: 50%;
+    padding: 0px 40px;
+}
+
+.creditos h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.creditos p{
+    text-align: justify;
+    line-height: 1.6;
+}
+   
+/* FIM RODAPÉ */
+
+
+
+/*----------RESPONSIVIDADE-----------*/
+
+@media (max-width: 760px){
+
+    /*HEADER*/
+
+.flex-container{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.menu-nav{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+
+    font-weight: bold;
+    font-size: 9px;
+    letter-spacing: 1px;
+    background-color: #c51a2d;
+}
+
+.menu-nav a{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    
+    border-bottom: 1px solid black;
+}
+
+.capa .botao{
+    background-color: #c51a2d;
+}
+
+/*CAPA*/
+
+.capa{
+    min-height: 90vh;
+}
+
+.capa h1{
+    font-size: 50px;
+    max-width: 100%;
+   
+    margin-bottom: 0px;
+}
+
+.capa h2{
+    max-width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/*PROJETO*/
+
+.projeto{
+    padding: 20px;
+    flex-direction: column;
+}
+
+.sobre-projeto{
+    padding: 20px;
+}
+
+.video{
+    flex: 1;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+.video iframe{
+    width: 100%;
+    height: 230px;
+}
+
+.saiba-mais{
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.agenda a{
+    background-color: #c51a2d;
+    color: #ffffff;
+    box-shadow: 3px 3px 8px #000000;
+}
+
+/*SELEÇÃO*/
+
+.selecao{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card{
+    border-bottom: 6px solid #1d1f20;
+}
+
+
+
+
+/*ECOPONTOS*/
+
+.container-cards{
+    flex-direction: column;
+    align-items: center;
+}
+
+/*SOBRE MIM*/
+
+.sobre{
+    flex-direction: column;
+}
+
+.sobremim{
+    padding: 0px 5px;
+}
+
+
+.foto{
+    padding: 0px 5px;
+}
+
+footer{
+    flex-direction: column;
+}
+
+
+
+
+
+}
